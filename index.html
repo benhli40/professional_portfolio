@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Benjamin Herrell Liles – Creative developer blending art and code. Explore my portfolio of elegant web projects built with HTML, CSS, and JavaScript.">
+  <meta name="author" content="Benjamin Herrell Liles">
+  <meta name="keywords" content="Benjamin Herrell Liles, developer, web developer, JavaScript, portfolio, frontend, projects">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Professional Portfolio</title>
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <header>
+    <h1>Welcome to My Professional Portfolio</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <img src="images/Benjamin in Apartment.jpg" alt="Your Name" class="profile-pic">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Not only am I a musician in my spare time, I am also a programmer/developer. I've been programming for the longest time and at times off and on. 
+            Lately, I've been more "on" for wanting to be a better developer. I have a passion for creating beautiful, functional web applications that enhance 
+            user experience. I am proficient in HTML, CSS, and JavaScript, and I am always eager to learn new technologies and frameworks.
+          </p>
+          <p>
+            You can catch all my coding projects at my <a href="https://github.com/benhli40?tab=repositories">Github Account</a>. But you can find my best ones 
+            even I love down below. I am always looking for new challenges and opportunities to grow as a developer. 
+            If you have a project in mind or just want to chat, feel free to reach out to me through the contact form below. I would love to hear from you! 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Datedock v. 2</h3>
+        <p>A lightweight, beautifully-designed weekly scheduler built with pure HTML, CSS, and Vanilla JavaScript</p>
+        <div class="project-buttons">
+          <a href="https://benhli40.github.io/DateDockv2/" target="_blank" class="btn">🌐 Live Project</a>
+          <a href="https://github.com/benhli40/DateDockv2" target="_blank" class="btn secondary">💻 View Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>MoonDream</h3>
+        <p>A gentle, beautifully simple sleep rhythm companion that helps you find your ideal sleep or wake times using natural 90-minute sleep cycles.</p>
+        <div class="project-buttons">
+          <a href="https://benhli40.github.io/MoonDream/" target="_blank" class="btn">🌐 Live Project</a>
+          <a href="https://github.com/benhli40/MoonDream" target="_blank" class="btn secondary">💻 View Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Havue</h3>
+        <p>I know it sounds a lot like "Have you ever seen the rain." It actually is supposed to sound like "hey-view," a combination of haven + view/vista..</p>
+        <div class="project-buttons">
+          <a href="https://benhli40.github.io/havue/" target="_blank" class="btn">🌐 Live Project</a>
+          <a href="https://github.com/benhli40/havue" target="_blank" class="btn secondary">💻 View Code</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form
+        action="https://formspree.io/f/mblgqnvr"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Benjamin Herrell Liles. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
